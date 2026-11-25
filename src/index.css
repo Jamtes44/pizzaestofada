@@ -427,7 +427,7 @@
   height: 410px;
   position: relative;
   object-fit: cover;
-  object-position: 64% center;
+  object-position: 25% center;
   filter: brightness(0.83);
 }
 .about-image-tag {
@@ -569,7 +569,14 @@
   transform: scale(1.06);
 }
 .product-card:first-child .product-image-wrap img {
-  object-position: 63% center;
+  object-position: 25% center;
+}
+/* Real photos from Instagram: keep the food in frame */
+.product-image-wrap img[src*="pizzetas"] {
+  object-position: center 62%;
+}
+.product-image-wrap img[src*="hamburguesa"] {
+  object-position: center 40%;
 }
 .product-badge {
   position: absolute;

@@ -104,7 +104,7 @@ const products = [
     name: "Súper Estofada",
     description:
       "Dorada por fuera. Brutal por dentro. Nuestra receta original, bien rellena y con mucho queso.",
-    image: "pizza-estofada.png",
+    image: "super-estofada.jpg",
     category: "Estofadas",
     badge: "LA FAVORITA",
     note: "Porción desde $17.500 · Jumbo $132.000",
@@ -112,21 +112,21 @@ const products = [
   {
     name: "Stromboli",
     description: "Todo lo que te gusta, enrollado en una masa doradita. Cada corte es otro antojo.",
-    image: "stromboli.webp",
+    image: "stromboli.jpg",
     category: "Para variar",
     note: "Un rollo de otro nivel",
   },
   {
     name: "Calzone",
     description: "Una media luna llena de sabor. Masa al horno, relleno generoso y queso fundido.",
-    image: "calzone.webp",
+    image: "calzone.jpg",
     category: "Para variar",
     note: "Un clásico, a nuestra manera",
   },
   {
     name: "Hamburguesa Estofada",
     description: "Sin pan, sin reglas. Carne y queso abrazados por nuestra inconfundible masa.",
-    image: "hamburguesa.webp",
+    image: "hamburguesa.jpg",
     category: "Estofadas",
     badge: "SIN PAN. SIN LÍMITES.",
     note: "Esto no es una hamburguesa cualquiera",
@@ -489,8 +489,8 @@ export default function App() {
         <section className="hero" id="inicio">
           <div className="hero-image">
             <img
-              src={`${import.meta.env.BASE_URL}images/pizza-estofada.png`}
-              alt="Pizza estofada dorada, cortada y con una porción levantada que estira el queso"
+              src={`${import.meta.env.BASE_URL}images/hero.jpg`}
+              alt="Porción de Pizza Estofada levantada con el queso estirándose"
               fetchPriority="high"
             />
           </div>
@@ -560,8 +560,8 @@ export default function App() {
             <div className="about-image-wrap">
               <img
                 className="about-image"
-                src={`${import.meta.env.BASE_URL}images/pizza-estofada.png`}
-                alt="Interior jugoso y abundante de nuestra pizza estofada"
+                src={`${import.meta.env.BASE_URL}images/super-estofada.jpg`}
+                alt="Queso derretido de la Pizza Estofada"
                 loading="lazy"
               />
               <span className="about-image-tag">
