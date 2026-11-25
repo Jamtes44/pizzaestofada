@@ -1,0 +1,15 @@
+{
+  "description": "Descubre el menú, las sedes y las opciones de domicilio de Pizza Estofada en Bogotá, y pide pizzas rellenas y otros antojos por WhatsApp.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  },
+  "title": "Pizza Estofada · Sabor Original en Bogotá",
+  "language": "es",
+  "icons": {
+    "icon": "favicon.png"
+  }
+}
