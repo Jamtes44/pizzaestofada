@@ -14,7 +14,7 @@ pnpm dev
 ## Publicar en GitHub Pages
 
 ```bash
-pnpm deploy
+pnpm publicar
 ```
 
 Compila la página y la sube a la rama `gh-pages`. Queda publicada en

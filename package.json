@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "oxfmt",
-    "deploy": "vite build && gh-pages -d dist --nojekyll"
+    "publicar": "vite build && gh-pages -d dist --nojekyll"
   },
   "dependencies": {
     "leaflet": "1.9.4",
